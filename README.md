@@ -6,6 +6,7 @@ Para ejecutar corremos el comando go run . desde una terminar
 ![ScreenShot](https://raw.githubusercontent.com/carlos07morales/apiGolang/main/screenshots/runGo.png)
 
 localhost:3000
+
 todas  las consultas son al puerto 3000 y los parámetros enviados desde POST, PUT y DELETE se envían en json Body/raw
 
 ![ScreenShot](https://raw.githubusercontent.com/carlos07morales/apiGolang/main/screenshots/setting.png)
