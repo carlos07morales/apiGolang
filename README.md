@@ -18,6 +18,6 @@ todas  las consultas son al puerto 3000 y los parámetros enviados desde POST, P
 | /getTicket          |  GET      |  ?id=1                                       | Un ticket           |
 | /setTicket          |  POST     | { "user": "Carlos", "status": "abierto" }    | OK                  |
 | /updateTicket       |  PUT      | { "id": 1, "status": "cerrado" }             | OK                  |
-| /deleteTicket       |  DELETE   | { "user": "Carlos", "status": "abierto" }    | OK                  |
+| /deleteTicket       |  DELETE   | { "id": 1 }                                  | OK                  |
 
 ![ScreenShot](https://raw.githubusercontent.com/carlos07morales/apiGolang/main/screenshots/example.png)
